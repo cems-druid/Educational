@@ -1,0 +1,62 @@
+This is a tutorial code that is gathered from https://ruslanspivak.com/lsbasi-part1/
+The interpretered language is resembled from PASCAL programming language. 
+
+Part 1 starts with basic calculator interpreter which named as calculator.py
+
+As the writer wanted.
+
+"I, Cem S., of being sound mind and body, do hereby pledge to commit studying interpreters and compilers
+starting today and get to a point where I know 100% how they work"
+Date: 09.03.2021
+
+Check your understanding
+
+1-1)What is an interpreter? -Interpreters are computer programs that directly executes instructions in the source code without changing source code into machine language.
+1-2)What is a compiler? -A compiler is a computer program that transtlates a code from one language to another language. Generally used to translate high-level language, a source code, to low-level language ,a machine code or assembly code) to create an executable program. 
+1-3)What’s the difference between an interpreter and a compiler? -Basically interpreter do not necessarly convert source code to a binary code. Rather it executes from the language it is based.
+1-4)What is a token? Tokens are the smallest bits that can be used. 
+1-5)What is the name of the process that breaks input apart into tokens? Tokenization.
+1-6)What is the part of the interpreter that does lexical analysis called?
+1-7)What are the other common names for that part of an interpreter or a compiler?
+
+Part 2 is about making the calculator better, adding minus and neglecting whitespaces.
+Check your understanding.
+
+2-1)What is a lexeme? -A lexeme is a sequence of characters that happen to be token.
+2-2)What is the name of the process that finds the structure in the stream of tokens, 
+or put differently, what is the name of the process that recognizes a certain phrase in that 
+stream of tokens? - Parsing.
+2-3)What is the name of the part of the interpreter (compiler) that does parsing? -Parser.
+
+Part 3
+
+Check your understanding.
+
+3-1)What is a syntax diagram? -A syntax diagram is a graphical representation of the 
+syntax rules of that programming language. These diagrams help with writing the parser.
+3-2)What is syntax analysis? - Also called parsing, which is process of recognizing a phrase in the stream
+of tokens. 
+3-3)What is a syntax analyzer? -Called parser.
+
+Part 4
+"I hear and I forget, I see and I remember, I do and I understand" -Confucius.
+
+Check your understanding
+4-1)What is a context-free grammar (grammar)? -A context free grammar is rules of a grammar.
+4-2)How many rules / productions does the grammar have? -At least one rule needs to be in the grammar, but it would not be a comprehensive grammar.
+4-3)What is a terminal? -Terminals are the things that cannot be changed by rules. They are terminal.
+4-4)What is a non-terminal? -Non-terminals are the things that can be replaced into with other rules. 
+4-5)What is a head of a rule? 
+4-6)What is a body of the rule? 
+4-7)What is the start symbol of a grammar?
+
+Part 5
+
+Check your understanding.
+
+5-1)What does it mean for an operator to be left-associative? -If we have three terminals and two operators, left-association would start from the operation on the left.
+5-2)Are operators + and - left-associative or right-associative? What about * and / ? -Both are in left associativity.
+5-3)Does operator + have higher precedence than operator * ? -In math multiplication has higher precedence than addition. 
+
+Part 6
+Part 7
